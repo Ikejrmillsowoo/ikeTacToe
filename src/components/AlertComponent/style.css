@@ -1,0 +1,70 @@
+.overlay {
+    content: '';
+    position: fixed;
+    background-color: rgba(00, 00, 00, .5);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.alert {
+    background-color: #1F3641;
+    height: 200px;
+    width: 100vw;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    text-transform: uppercase;
+   
+}
+.alert h1 {
+    font-weight: 500;
+    
+}
+
+.alert h4 {
+    color: #DBE8ED;
+}
+
+#winner_yellow {
+    color: #F2B137
+}
+
+#winner_blue {
+    color: #31C3BD;
+}
+
+
+
+.alert h1 span img{
+    width: 2.5rem;
+    margin-right: 10px;
+    vertical-align: middle;
+    
+}
+
+
+
+.quit {
+    padding: 5px;
+    box-shadow: 0px 5px 0px 0px rgba(219, 232, 237, 0.73);
+    border-radius: 10px;
+    margin-right: 10px;
+    font-size: 1.1rem;
+    background: #DBE8ED;
+    border: none;
+}
+
+.next {
+    padding: 5px;
+    box-shadow: 0px 5px 0px 0px rgba(242, 177, 55, 0.73);
+    border-radius: 10px;
+    margin-right: 10px;
+    font-size: 1.1rem;
+    border: none;
+    background: #F2B137;
+}

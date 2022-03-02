@@ -1,0 +1,13 @@
+.main-screen {
+    width: 100vw;
+    height: 100vh;
+  
+}
+
+@media only screen and (min-width: 550px) {
+    .main-screen {
+        width: 30rem;
+        margin: auto;
+    }
+}
+

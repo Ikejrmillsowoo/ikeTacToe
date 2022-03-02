@@ -1,0 +1,19 @@
+.scoreCard {
+     width: 40%;
+     background-color: #1F3641;
+     border-radius: 10px;
+     margin: 15px;
+     padding: 0 20px;
+}
+
+#green {
+     background-color: green;
+}
+
+#gray {
+     background-color: gray;
+}
+
+#yellow {
+     background-color: yellow;
+}

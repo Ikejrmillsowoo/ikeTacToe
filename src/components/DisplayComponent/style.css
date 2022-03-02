@@ -1,0 +1,13 @@
+.display {
+    margin: auto;
+    width: 80%;
+    padding-top: 20%;
+    
+}
+
+.display-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
